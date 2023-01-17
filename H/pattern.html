@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+
+<script>
+let text = "Visit edubridge";
+let pattern = /edubridge/i;
+let result = text.match(pattern);
+
+document.getElementById("demo").innerHTML = result;
+
+let t = "Is this all there is?";
+let p = /is/g; 
+let r = t.match(p);
+
+document.getElementById("demo1").innerHTML = r;
+
+let t1 = "Visit software testing";
+let p1 = /software testing/i;
+let r1 = t1.match(p1);;
+
+document.getElementById("demo2").innerHTML = r1;
+
+let t2 = `Is this
+all there
+is`
+
+let p2 = /^is/m;
+let r2 = t2.match(p2);
+document.getElementById("demo3").innerHTML = r2;
+
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+<p id="demo"></p>
+
+<script>
+var person = {
+  fullName: function(city, country) {
+    return this.firstName + " " + this.lastName + "," + city + "," + country;
+  }
+}
+
+var person1 = {
+  firstName:"rijwana",
+  lastName: "shaikh"
+}
+
+var person2 = {
+  firstName:"sara",
+  lastName: "khan"
+}
+
+document.getElementById("demo").innerHTML = person.fullName.call(person1, "Pune", "India"); 
+</script>
+
+</body>
+</html>
+
+

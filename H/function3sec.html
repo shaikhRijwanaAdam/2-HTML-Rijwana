@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>wait 3 second</h2>
+<p id="demo"></p>
+
+<script>
+const person = {
+  firstName:"rijwana",
+  lastName: "shaikh",
+  display: function() {
+    let x = document.getElementById("demo");
+    x.innerHTML = this.firstName + " " + this.lastName;
+  }
+}
+
+let display = person.display.bind(person);
+setTimeout(display, 3000);
+</script>
+
+</body>
+</html

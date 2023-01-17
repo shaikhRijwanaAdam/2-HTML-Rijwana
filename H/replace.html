@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Strings</h1>
+<h2>The replace() Method</h2>
+
+<p>replace() searches a string for a value,
+and returns a new string with the specified value(s) replaced:</p>
+
+<p id="demo">I have two red pens and one red pencil.</p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+
+<script>
+
+//Replace:-//
+let text = document.getElementById("demo").innerHTML; 
+let result = text.replace(/red/gi, "pink");
+document.getElementById("demo").innerHTML = result;
+
+//Split:-//
+let t1 = "are you free now?";
+const myArray = t1.split(" ");
+
+document.getElementById("demo1").innerHTML = myArray; 
+
+//Seach:-//
+let t2 = "hey dear? why are you upset?"
+let position = t2.search("you");
+
+document.getElementById("demo2").innerHTML = position;
+
+//Exec():-//
+let t3 = "what do you do guys?";
+let r3 = /d/.exec(t3);
+document.getElementById("demo3").innerHTML = r3;
+
+
+
+</script>
+
+</body>
+</html>

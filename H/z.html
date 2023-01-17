@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+ font-family: cursive;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+</style>
+    <style>
+
+h1 {
+  background-color: yellow;
+  text-align: center;
+  font-size: 50;
+
+}
+    </style>
+
+    <style>
+img { 
+    border-radius: 10px;  
+}
+</style>
+    <style>
+body {
+  background-image: url("z2.jpg");
+}
+</style>
+<style>
+    .{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-bottom: 30px;
+        margin-right: 20px;
+        padding-left: 20px;
+        padding-right: 27px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+.container (min-width: 700px) {
+    width:100%;
+    height=100vh;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+    }
+.swiper{
+    
+    width: 30%;
+    height: fit-content;
+    
+}
+.swiper-slide img{
+    
+    width: 10%;
+}
+</style>
+
+
+</head>
+
+    <body>
+        <h1 style="color: deeppink">Order food Online On Zomato</h1>
+    
+    <img src="z1.jpg" alt="i" width="150" height="150">
+        
+    
+    <div class="scrollmenu">
+  <a href="#home">Home</a>
+  <a href="#news">Delivery</a>
+  <a href="#contact">Contact us</a>
+  <a href="#about">self pick up</a>
+  <a href="#support">zomato disc.</a>
+  <a href="#blog">night life</a>
+  <a href="#tools">location</a>  
+  <a href="#base">payment mode</a>
+  <a href="#custom">zomato membership</a>
+  <a href="#more">log in</a>
+  <a href="#logo">blogs</a>
+  <a href="#friends">rating</a>
+  <a href="#partners">dinning out</a>
+  <a href="#people">Review</a>
+  <a href="#work">Work</a>
+</div>
+    
+        <h2 style="color: purple">Inspiration for your first order</h2>
+        
+        <div class="container">
+
+            
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="C:\Users\Rijwana\Desktop\MIT website\i00.jpg" height="100" width="100"></div>
+        <div class="swiper-slide"><img src="C:\Users\Rijwana\Desktop\MIT website\i4.jpg"></div>
+        <div class="swiper-slide"><img src="C:\Users\Rijwana\Desktop\MIT website\i5.jpg"></div>
+          <div class="swiper-slide"><img src="C:\Users\Rijwana\Desktop\MIT website\i31.jpg"></div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+    
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    
+    
+            </div>
+            </div>
+            <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+            
+            <script>
+            const swiper = new Swiper('.swiper', {
+                 autoplay: {
+                     delay: 3000,
+                     dsiplayOnInteraction: false,
+                 },
+      loop: true,
+    
+      
+      pagination: {
+        el: '.swiper-pagination',
+          clickable: true,
+      },
+    
+      
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    
+    
+     
+    });
+            </script>
+        
+        
+    
+    
+    </body>  
+</html>
+
