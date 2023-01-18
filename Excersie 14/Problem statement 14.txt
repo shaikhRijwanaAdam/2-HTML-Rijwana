@@ -1,0 +1,7 @@
+Excersie 14 problem Statement;-
+ 
+1. Create a new HTML file and an external Style sheet.
+2. Using your knowledge of the CSS Box Model, create a ‘box’ that has a height of 60px, a width of
+260px, a solid border of 3px (you can pick any color you wish), top and bottom padding of 55px, left and right padding of 25px and a top and bottom margin of 0px and a left and right margin set to
+auto.
+3. Save, test your work in your browser and calculate the exact size of your box.
